@@ -30,3 +30,17 @@ rm *.zip
 ```bash
 rm -i *.zip
 ```
+## How to flash usb drive:
+### locate the usb drive name 
+```fish
+df -h
+```
+### then, unmount 
+```fish
+sudo unmount /dev/sdc1(drive name)
+```
+### to format,
+```fish
+sudo mkfs.vfat /dev/sdc1
+```
+
