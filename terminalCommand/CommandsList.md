@@ -43,4 +43,12 @@ sudo unmount /dev/sdc1(drive name)
 ```fish
 sudo mkfs.vfat /dev/sdc1
 ```
+## Increase sound:
+```bash
+pactl set-sink-volume @DEFAULT_SINK@ +10%
 
+```
+## to enable wifi-hotspot
+```bash
+    sudo ufw disable
+```
